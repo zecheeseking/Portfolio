@@ -174,3 +174,33 @@ a {
 a:hover, a:focus, a:active {
   color: #b5b6e4;
 }
+
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(5, 20);
+}
+
+.progress {
+  position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-bar{
+  background-color: #4F43AE;
+}
+
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
