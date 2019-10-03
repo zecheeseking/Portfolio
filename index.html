@@ -104,7 +104,6 @@
             <span class="text-primary">July 2017 - August 2019</span>
           </div>
         </div>
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Internship</h3>
@@ -149,12 +148,17 @@
 
           <div style="width:450px !important; float:left">
             <div class="row">
-              <div class="col-sm-5 mt-2 ml-2" style="background-color: blue; height: 150px;"></div>
-              <div class="col-sm-5 mt-2 ml-2" style="background-color: pink; height: 150px;"></div>
+              <a class="mt-2 ml-2" data-toggle="modal" data-target="#kar-img1" style="width:40%">
+                <img src="vendor/Karaton/karaton_img1.jpg" class="img-fluid img-thumbnail">
+              </a>
+              <a class="mt-2 ml-2" data-toggle="modal" data-target="#kar-img2" style="width:40%">
+                <img src="vendor/Karaton/karaton_img2.jpg" class="img-fluid img-thumbnail">
+              </a>
             </div>
             <div class="row">
-              <div class="col-sm-5 mt-2 ml-2" style="background-color: pink; height: 150px;"></div>
-              <div class="col-sm-5 mt-2 ml-2" style="background-color: blue; height: 150px;"></div>
+              <a class="mt-2 ml-2" data-toggle="modal" data-target="#kar-img3" style="width:40%">
+                <img src="vendor/Karaton/karaton_img3.jpg" class="img-fluid img-thumbnail">
+              </a>
             </div>
           </div>
           <div class="mt-4">
@@ -163,6 +167,54 @@
         </div>
         <div class="text-center">
           <button class="btn btn-link expand-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <i class="text-secondary fas fa-chevron-down fa-3x"></i>
+          </button>
+        </div>
+
+        <h3 class="mb-3">Fur Shader</h3>
+        <div class="mb-2">
+          A geometry shader I wrote in my second year at DAE, using the popular shells & fins methodology, as well as water clumping. This was built within an Engine
+          that I built myself over the second year of DAE. I wrote a paper on the methodology I used, which can be found <a href="https://docs.google.com/document/d/1mPmxxHHksKBnMnFoctfjQyJDxLiN-yw6XgO-szpzSNQ/edit?usp=sharing">here.</a>
+          A video of the shader is shown below.
+        </div>
+
+        <div class="collapse" id="collapseTwo">
+          <div class="mt-4">
+            <iframe width="450px" height="300px" src="https://www.youtube.com/embed/ckisn0rUOe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-link expand-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+            <i class="text-secondary fas fa-chevron-down fa-3x"></i>
+          </button>
+        </div>
+
+        <h3 class="mb-3">Vicious Voxels</h3>
+        <div class="mb-2">
+          A small First Person Shooter game I created for a school project. Implemented both A* pathfinding and Genetic Algorithms into the game to help
+          enhance the gameplay.
+        </div>
+
+        <div class="collapse" id="collapseThree">
+          <div>
+          A wave based shooter that had 3 different enemy types, the game operated on a simple rock, paper, scissors mechanic, with the 3 guns available to the player
+          acting as a counter to the enemy types. The Genetic Algorithm would evolve the make up of the next waves based on how the player fought the last one. The following metric were measured:
+          <ul class="my-3">
+            <li>Successful shots fired by the player (meaning that they exploited a weakness)</li>
+            <li>Time taken to clear the wave</li>
+            <li>Damage taken by player</li>
+            <li>Average lifetime of each enemy type</li>
+          </ul>
+          </div>
+          <div class="my-3">
+            A link to the final paper explaining it in depth can be found <a href="https://docs.google.com/document/d/1JXDfVvy8m68VP0DDXwn2YC6sOfKlvS_r_mwy6qrhj_E/edit?usp=sharing">here</a>.
+          </div>
+          <div class="mt-4">
+            <iframe width="450px" height="300px" src="https://www.youtube.com/embed/eNC7IBLi4Uo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-link expand-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
             <i class="text-secondary fas fa-chevron-down fa-3x"></i>
           </button>
         </div>
@@ -187,7 +239,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">University of Plymouthm United Kingdom</h3>
+            <h3 class="mb-0">University of Plymouth United Kingdom</h3>
             <div class="subheading mb-3">Computing & Games Development</div>
             <p>Certificate of Higher Education</p>
           </div>
@@ -303,6 +355,39 @@
     </section>
 
     <hr class="m-0">
+
+    <div class="modal fade" id="kar-img1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" data-dismiss="modal">
+          <div class="modal-content"  >
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <img src="vendor/Karaton/karaton_img1.jpg" class="img-responsive" style="width: 100%;">
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="kar-img2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" data-dismiss="modal">
+          <div class="modal-content"  >
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <img src="vendor/Karaton/karaton_img2.jpg" class="img-responsive" style="width: 100%;">
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="kar-img3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" data-dismiss="modal">
+          <div class="modal-content"  >
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <img src="vendor/Karaton/karaton_img3.jpg" class="img-responsive" style="width: 100%;">
+              </div>
+          </div>
+      </div>
+    </div>
 
   </div>
 
